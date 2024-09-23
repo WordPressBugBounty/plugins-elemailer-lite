@@ -1,0 +1,1291 @@
+# Copyright (C) 2024 elemailer
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Elemailer Lite 2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/elemailer-lite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-11T04:42:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: elemailer-lite\n"
+
+#. Plugin Name of the plugin
+#: elemailer-lite.php
+msgid "Elemailer Lite"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: elemailer-lite.php
+msgid "https://elemailer.com/"
+msgstr ""
+
+#. Description of the plugin
+#: elemailer-lite.php
+msgid "Elementor Email template & campaign builder for WordPress"
+msgstr ""
+
+#. Author of the plugin
+#: elemailer-lite.php
+msgid "elemailer"
+msgstr ""
+
+#: app/form-template/action.php:106
+msgid "Your template is created"
+msgstr ""
+
+#: app/form-template/action.php:112
+msgid "You can't create more than 3 templates with elemailer lite."
+msgstr ""
+
+#: app/form-template/action.php:142
+msgid "Your template setting is updated."
+msgstr ""
+
+#: app/form-template/cpt.php:65
+msgctxt "Post Type General Name"
+msgid "Form Templates"
+msgstr ""
+
+#: app/form-template/cpt.php:66
+msgctxt "Post Type Singular Name"
+msgid "Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:67
+#: app/form-template/cpt.php:68
+msgid "Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:69
+msgid "Form Template Archives"
+msgstr ""
+
+#: app/form-template/cpt.php:70
+msgid "Form Template Attributes"
+msgstr ""
+
+#: app/form-template/cpt.php:71
+msgid "Parent Item:"
+msgstr ""
+
+#: app/form-template/cpt.php:72
+#: app/form-template/cpt.php:100
+msgid "Form Templates"
+msgstr ""
+
+#: app/form-template/cpt.php:73
+msgid "Add New Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:74
+msgid "Add New"
+msgstr ""
+
+#: app/form-template/cpt.php:75
+msgid "New Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:76
+msgid "Edit Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:77
+msgid "Update Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:78
+msgid "View Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:79
+msgid "View Form Templates"
+msgstr ""
+
+#: app/form-template/cpt.php:80
+msgid "Search Form Templates"
+msgstr ""
+
+#: app/form-template/cpt.php:81
+msgid "Not found"
+msgstr ""
+
+#: app/form-template/cpt.php:82
+msgid "Not found in Trash"
+msgstr ""
+
+#: app/form-template/cpt.php:83
+msgid "Featured Image"
+msgstr ""
+
+#: app/form-template/cpt.php:84
+msgid "Set featured image"
+msgstr ""
+
+#: app/form-template/cpt.php:85
+msgid "Remove featured image"
+msgstr ""
+
+#: app/form-template/cpt.php:86
+msgid "Use as featured image"
+msgstr ""
+
+#: app/form-template/cpt.php:87
+msgid "Insert into form"
+msgstr ""
+
+#: app/form-template/cpt.php:88
+msgid "Uploaded to this form"
+msgstr ""
+
+#: app/form-template/cpt.php:89
+msgid "Form Templates list"
+msgstr ""
+
+#: app/form-template/cpt.php:90
+msgid "Form Templates list navigation"
+msgstr ""
+
+#: app/form-template/cpt.php:91
+msgid "Filter froms list"
+msgstr ""
+
+#: app/form-template/cpt.php:101
+msgid "elemailer form template create"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:117
+msgid "Use Elemailer Lite"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:119
+#: integrations/elementor/actions/hooks.php:155
+msgid "Yes"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:120
+#: integrations/elementor/actions/hooks.php:156
+msgid "No"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:129
+#: integrations/elementor/actions/hooks.php:165
+msgid "Select elemailer lite template"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:153
+msgid "Use elemailer lite template"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:246
+#: integrations/elementor/widgets/button/button.php:229
+#: integrations/elementor/widgets/divider/divider.php:168
+#: integrations/elementor/widgets/footer/footer.php:186
+#: integrations/elementor/widgets/heading/heading.php:213
+#: integrations/elementor/widgets/image-box/image-box.php:384
+#: integrations/elementor/widgets/image/image.php:185
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:588
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:550
+#: integrations/elementor/widgets/shortcode/shortcode.php:287
+#: integrations/elementor/widgets/social/social.php:303
+#: integrations/elementor/widgets/spacer/spacer.php:115
+#: integrations/elementor/widgets/text-editor/text-editor.php:145
+#: integrations/elementor/widgets/video/video.php:198
+msgid "Background Type"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:252
+#: integrations/elementor/widgets/button/button.php:142
+#: integrations/elementor/widgets/button/button.php:233
+#: integrations/elementor/widgets/divider/divider.php:79
+#: integrations/elementor/widgets/divider/divider.php:172
+#: integrations/elementor/widgets/footer/footer.php:190
+#: integrations/elementor/widgets/heading/heading.php:119
+#: integrations/elementor/widgets/heading/heading.php:217
+#: integrations/elementor/widgets/image-box/image-box.php:227
+#: integrations/elementor/widgets/image-box/image-box.php:314
+#: integrations/elementor/widgets/image-box/image-box.php:388
+#: integrations/elementor/widgets/image/image.php:189
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:372
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:443
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:515
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:592
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:332
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:404
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:476
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:554
+#: integrations/elementor/widgets/shortcode/shortcode.php:171
+#: integrations/elementor/widgets/shortcode/shortcode.php:215
+#: integrations/elementor/widgets/shortcode/shortcode.php:291
+#: integrations/elementor/widgets/social/social.php:307
+#: integrations/elementor/widgets/spacer/spacer.php:119
+#: integrations/elementor/widgets/text-editor/text-editor.php:149
+#: integrations/elementor/widgets/video/video.php:202
+msgid "Color"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:253
+#: integrations/elementor/widgets/button/button.php:234
+#: integrations/elementor/widgets/divider/divider.php:173
+#: integrations/elementor/widgets/footer/footer.php:191
+#: integrations/elementor/widgets/heading/heading.php:218
+#: integrations/elementor/widgets/image-box/image-box.php:146
+#: integrations/elementor/widgets/image-box/image-box.php:389
+#: integrations/elementor/widgets/image/image.php:27
+#: integrations/elementor/widgets/image/image.php:190
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:593
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:555
+#: integrations/elementor/widgets/shortcode/shortcode.php:292
+#: integrations/elementor/widgets/social/social.php:308
+#: integrations/elementor/widgets/spacer/spacer.php:120
+#: integrations/elementor/widgets/text-editor/text-editor.php:150
+#: integrations/elementor/widgets/video/video.php:203
+msgid "Image"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:261
+#: integrations/elementor/widgets/button/button.php:242
+#: integrations/elementor/widgets/divider/divider.php:181
+#: integrations/elementor/widgets/footer/footer.php:199
+#: integrations/elementor/widgets/heading/heading.php:226
+#: integrations/elementor/widgets/image-box/image-box.php:397
+#: integrations/elementor/widgets/image/image.php:198
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:601
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:563
+#: integrations/elementor/widgets/shortcode/shortcode.php:300
+#: integrations/elementor/widgets/social/social.php:316
+#: integrations/elementor/widgets/spacer/spacer.php:128
+#: integrations/elementor/widgets/text-editor/text-editor.php:158
+#: integrations/elementor/widgets/video/video.php:211
+msgid "Background Color"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:282
+#: integrations/elementor/widgets/button/button.php:259
+#: integrations/elementor/widgets/divider/divider.php:198
+#: integrations/elementor/widgets/footer/footer.php:216
+#: integrations/elementor/widgets/heading/heading.php:243
+#: integrations/elementor/widgets/image-box/image-box.php:63
+#: integrations/elementor/widgets/image-box/image-box.php:414
+#: integrations/elementor/widgets/image/image.php:64
+#: integrations/elementor/widgets/image/image.php:215
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:618
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:580
+#: integrations/elementor/widgets/shortcode/shortcode.php:311
+#: integrations/elementor/widgets/social/social.php:333
+#: integrations/elementor/widgets/spacer/spacer.php:145
+#: integrations/elementor/widgets/text-editor/text-editor.php:175
+#: integrations/elementor/widgets/video/video.php:80
+#: integrations/elementor/widgets/video/video.php:94
+#: integrations/elementor/widgets/video/video.php:228
+msgid "Choose Image"
+msgstr ""
+
+#. translators: %s: Site title.
+#: integrations/elementor/actions/void-email.php:60
+msgid "New message from \"%s\""
+msgstr ""
+
+#: integrations/elementor/actions/void-email2.php:26
+msgid "Email 2"
+msgstr ""
+
+#: integrations/elementor/base.php:133
+msgid "Rate Now!"
+msgstr ""
+
+#: integrations/elementor/base.php:139
+msgid "Not Now!"
+msgstr ""
+
+#: integrations/elementor/base.php:146
+msgid "Never Show!"
+msgstr ""
+
+#: integrations/elementor/base.php:170
+msgid "You have been using Elemailer Lite for a couple of days. We hope you really enjoy using it. If so please do give us a rating to boost our morale to work more on this."
+msgstr ""
+
+#: integrations/elementor/base.php:190
+msgid "Activate Elementor"
+msgstr ""
+
+#: integrations/elementor/base.php:193
+msgid "Install Elementor"
+msgstr ""
+
+#: integrations/elementor/base.php:203
+msgid "Elemailer Lite needs Elementor version %1$s+ , which is not activated."
+msgstr ""
+
+#: integrations/elementor/base.php:217
+msgid "Update Elementor"
+msgstr ""
+
+#: integrations/elementor/base.php:226
+msgid "Elemailer Lite needs Elementor version %1$s+ for working it, lower version is running. Please update."
+msgstr ""
+
+#: integrations/elementor/base.php:245
+msgid "Activate Elementor pro"
+msgstr ""
+
+#: integrations/elementor/base.php:249
+msgid "Install Elementor pro"
+msgstr ""
+
+#: integrations/elementor/base.php:261
+msgid "To use Elemailer Lite with Elementor pro Forms to send email elementor pro %1$s+ should be installed & activated. Ignore if you plan to use Elemailer with other Form plugin(s)."
+msgstr ""
+
+#. translators: %s are link.
+#: integrations/elementor/library.php:98
+msgid "This is a premium template. you can purchase it from <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#. translators: %s are link.
+#: integrations/elementor/library.php:100
+msgid "Save Email template feature is available only in <a href=\"%s\" target=\"_blank\">Elemailer</a> paid version."
+msgstr ""
+
+#: integrations/elementor/library.php:105
+msgid "Elemailer Templates"
+msgstr ""
+
+#: integrations/elementor/library.php:110
+#: public/views/templates.php:56
+msgid "Template"
+msgstr ""
+
+#: integrations/elementor/library.php:111
+msgid "Block"
+msgstr ""
+
+#: integrations/elementor/library.php:112
+msgid "Dismiss"
+msgstr ""
+
+#: integrations/elementor/library.php:113
+msgid "Install Required Plugins"
+msgstr ""
+
+#: integrations/elementor/library.php:118
+msgid "Get Access!"
+msgstr ""
+
+#: integrations/elementor/library.php:119
+msgid "Template library refreshed!"
+msgstr ""
+
+#: integrations/elementor/library.php:120
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: integrations/elementor/library.php:228
+#: integrations/elementor/library.php:243
+#: integrations/elementor/library.php:289
+#: integrations/elementor/library.php:308
+#: integrations/elementor/library.php:336
+#: integrations/elementor/library.php:363
+#: integrations/elementor/library.php:407
+msgid "You are not allowed to perform this action"
+msgstr ""
+
+#: integrations/elementor/library.php:369
+#: integrations/elementor/library.php:375
+msgid "Invalid data."
+msgstr ""
+
+#: integrations/elementor/library.php:381
+#: integrations/elementor/library.php:426
+msgid "Invalid Post Meta"
+msgstr ""
+
+#: integrations/elementor/library.php:388
+#: integrations/elementor/library.php:433
+msgid "Invalid Post ID or Elementor Meta"
+msgstr ""
+
+#: integrations/elementor/library.php:413
+msgid "Invalid API URL."
+msgstr ""
+
+#: integrations/elementor/widgets/base.php:156
+msgid "Elemailer Template Builder Fields"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:27
+#: integrations/elementor/widgets/button/button.php:57
+msgid "Button"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:65
+#: integrations/elementor/widgets/footer/footer.php:56
+#: integrations/elementor/widgets/social/social.php:116
+msgid "Text"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:67
+#: integrations/elementor/widgets/button/button.php:68
+msgid "Click here"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:75
+#: integrations/elementor/widgets/heading/heading.php:73
+#: integrations/elementor/widgets/image/image.php:119
+#: integrations/elementor/widgets/social/social.php:99
+msgid "Link"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:77
+#: integrations/elementor/widgets/image/image.php:134
+#: integrations/elementor/widgets/social/social.php:101
+#: integrations/elementor/widgets/video/video.php:108
+#: integrations/elementor/widgets/video/video.php:123
+#: integrations/elementor/widgets/video/video.php:138
+#: integrations/elementor/widgets/video/video.php:153
+msgid "https://your-link.com"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:87
+#: integrations/elementor/widgets/footer/footer.php:73
+#: integrations/elementor/widgets/heading/heading.php:85
+#: integrations/elementor/widgets/image-box/image-box.php:120
+#: integrations/elementor/widgets/image/image.php:95
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:336
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:297
+#: integrations/elementor/widgets/shortcode/shortcode.php:115
+#: integrations/elementor/widgets/social/social.php:175
+#: integrations/elementor/widgets/text-editor/text-editor.php:86
+msgid "Alignment"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:91
+#: integrations/elementor/widgets/footer/footer.php:77
+#: integrations/elementor/widgets/heading/heading.php:89
+#: integrations/elementor/widgets/image-box/image-box.php:100
+#: integrations/elementor/widgets/image-box/image-box.php:124
+#: integrations/elementor/widgets/image/image.php:99
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:195
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:340
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:156
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:301
+#: integrations/elementor/widgets/shortcode/shortcode.php:69
+#: integrations/elementor/widgets/shortcode/shortcode.php:119
+#: integrations/elementor/widgets/social/social.php:179
+#: integrations/elementor/widgets/text-editor/text-editor.php:90
+msgid "Left"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:95
+#: integrations/elementor/widgets/footer/footer.php:81
+#: integrations/elementor/widgets/heading/heading.php:93
+#: integrations/elementor/widgets/image-box/image-box.php:128
+#: integrations/elementor/widgets/image/image.php:103
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:344
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:305
+#: integrations/elementor/widgets/shortcode/shortcode.php:123
+#: integrations/elementor/widgets/social/social.php:183
+#: integrations/elementor/widgets/text-editor/text-editor.php:94
+msgid "Center"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:99
+#: integrations/elementor/widgets/footer/footer.php:85
+#: integrations/elementor/widgets/heading/heading.php:97
+#: integrations/elementor/widgets/image-box/image-box.php:108
+#: integrations/elementor/widgets/image-box/image-box.php:132
+#: integrations/elementor/widgets/image/image.php:107
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:196
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:348
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:157
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:309
+#: integrations/elementor/widgets/shortcode/shortcode.php:127
+#: integrations/elementor/widgets/social/social.php:187
+#: integrations/elementor/widgets/text-editor/text-editor.php:98
+msgid "Right"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:103
+msgid "Justified"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:117
+msgid "Button Style"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:125
+#: integrations/elementor/widgets/button/button.php:220
+#: integrations/elementor/widgets/divider/divider.php:159
+#: integrations/elementor/widgets/footer/footer.php:177
+#: integrations/elementor/widgets/heading/heading.php:204
+#: integrations/elementor/widgets/image-box/image-box.php:375
+#: integrations/elementor/widgets/image/image.php:176
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:579
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:541
+#: integrations/elementor/widgets/shortcode/shortcode.php:278
+#: integrations/elementor/widgets/social/social.php:294
+#: integrations/elementor/widgets/spacer/spacer.php:106
+#: integrations/elementor/widgets/text-editor/text-editor.php:136
+#: integrations/elementor/widgets/video/video.php:189
+msgid "Padding (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:158
+msgid "Background"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:174
+#: integrations/elementor/widgets/footer/footer.php:112
+#: integrations/elementor/widgets/heading/heading.php:134
+#: integrations/elementor/widgets/image-box/image-box.php:242
+#: integrations/elementor/widgets/image-box/image-box.php:329
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:388
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:459
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:531
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:348
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:420
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:492
+#: integrations/elementor/widgets/shortcode/shortcode.php:186
+#: integrations/elementor/widgets/shortcode/shortcode.php:230
+msgid "Font Size (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:196
+#: integrations/elementor/widgets/divider/divider.php:142
+#: integrations/elementor/widgets/footer/footer.php:153
+#: integrations/elementor/widgets/heading/heading.php:180
+#: integrations/elementor/widgets/image-box/image-box.php:351
+#: integrations/elementor/widgets/image/image.php:152
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:555
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:517
+#: integrations/elementor/widgets/shortcode/shortcode.php:254
+#: integrations/elementor/widgets/social/social.php:270
+#: integrations/elementor/widgets/spacer/spacer.php:89
+#: integrations/elementor/widgets/text-editor/text-editor.php:112
+#: integrations/elementor/widgets/video/video.php:165
+msgid "Advanced Style"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:204
+#: integrations/elementor/widgets/divider/divider.php:150
+#: integrations/elementor/widgets/footer/footer.php:161
+#: integrations/elementor/widgets/heading/heading.php:188
+#: integrations/elementor/widgets/image-box/image-box.php:359
+#: integrations/elementor/widgets/image/image.php:160
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:563
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:525
+#: integrations/elementor/widgets/shortcode/shortcode.php:262
+#: integrations/elementor/widgets/social/social.php:278
+#: integrations/elementor/widgets/spacer/spacer.php:97
+#: integrations/elementor/widgets/text-editor/text-editor.php:120
+#: integrations/elementor/widgets/video/video.php:173
+msgid "Margin (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:27
+#: integrations/elementor/widgets/divider/divider.php:56
+msgid "Divider"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:63
+msgid "Divider Style"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:67
+msgid "Solid"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:68
+msgid "Dashed"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:69
+msgid "Dotted"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:70
+msgid "Double"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:96
+msgid "Width (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:118
+msgid "Gap (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:27
+msgid "Footer"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:63
+msgid "Address"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:65
+msgid "Enter your addrress"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:66
+msgid "45 Rockefeller Plaza, New York, NY 10111, United States"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:97
+msgid "Text Color"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:134
+msgid "Subscription"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:143
+msgid "<div style=\"font-size: 16px;line-height: 20px;\">Unsubscribe and Manage Subscription feature available only in <a href=\"%s\" target=\"_blank\">Elemailer</a> paid version.</div>"
+msgstr ""
+
+#: integrations/elementor/widgets/heading/heading.php:27
+msgid "Heading"
+msgstr ""
+
+#: integrations/elementor/widgets/heading/heading.php:56
+#: integrations/elementor/widgets/heading/heading.php:63
+#: integrations/elementor/widgets/heading/heading.php:111
+#: integrations/elementor/widgets/image-box/image-box.php:74
+#: integrations/elementor/widgets/image-box/image-box.php:219
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:252
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:364
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:213
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:324
+msgid "Title"
+msgstr ""
+
+#: integrations/elementor/widgets/heading/heading.php:65
+#: integrations/elementor/widgets/image-box/image-box.php:77
+msgid "Enter your title"
+msgstr ""
+
+#: integrations/elementor/widgets/heading/heading.php:66
+msgid "Add Your Heading Text Here"
+msgstr ""
+
+#: integrations/elementor/widgets/heading/heading.php:156
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:411
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:482
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:371
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:443
+msgid "Line Height (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:27
+msgid "Image Box"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:56
+#: integrations/elementor/widgets/image/image.php:57
+msgid "Image Content"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:78
+msgid "Image Title"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:85
+#: integrations/elementor/widgets/image-box/image-box.php:306
+msgid "Description"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:87
+msgid "Enter your description"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:88
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo tellus vitae cursus."
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:95
+msgid "Image Position"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:104
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:194
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:155
+#: integrations/elementor/widgets/shortcode/shortcode.php:68
+msgid "Top"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:154
+#: integrations/elementor/widgets/image/image.php:75
+msgid "Width (%)"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:175
+msgid "Border Radius (%)"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:196
+msgid "Spacing (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:262
+msgid "Top Spacing (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:283
+msgid "Bottom Spacing (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/image/image.php:123
+#: integrations/elementor/widgets/shortcode/shortcode.php:70
+msgid "None"
+msgstr ""
+
+#: integrations/elementor/widgets/image/image.php:124
+#: integrations/elementor/widgets/image/image.php:132
+msgid "Custom URL"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:27
+msgid "Latest Posts"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:57
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:53
+#: integrations/elementor/widgets/shortcode/shortcode.php:56
+#: integrations/elementor/widgets/shortcode/shortcode.php:207
+#: integrations/elementor/widgets/text-editor/text-editor.php:58
+msgid "Content"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:65
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:61
+msgid "Post type"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:76
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:71
+msgid "Select Taxonomy"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:85
+msgid "Select Terms"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:103
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:106
+#: plugin.php:362
+msgid "Settings"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:111
+msgid "Posts per page"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:124
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:114
+msgid "Posts Per Row"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:139
+msgid "Order"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:152
+msgid "Order By"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:170
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:131
+msgid "Layout"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:178
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:139
+msgid "Display Thumbnail"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:180
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:254
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:273
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:306
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:141
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:215
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:234
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:267
+msgid "Show"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:181
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:255
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:274
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:307
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:142
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:216
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:235
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:268
+msgid "Hide"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:190
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:151
+msgid "Image position"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:209
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:170
+msgid "Image size"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:222
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:183
+msgid "Width(%)"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:271
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:435
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:232
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:396
+msgid "Excerpt"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:283
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:244
+msgid "Excerpt Length"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:304
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:507
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:265
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:468
+msgid "Read More"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:316
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:277
+msgid "Read More Text"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:318
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:279
+msgid "Read More »"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:319
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:280
+msgid "Type your read more text here"
+msgstr ""
+
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:23
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:88
+msgid "Selected Posts"
+msgstr ""
+
+#: integrations/elementor/widgets/shortcode/shortcode.php:26
+#: integrations/elementor/widgets/shortcode/shortcode.php:101
+msgid "Shortcode"
+msgstr ""
+
+#: integrations/elementor/widgets/shortcode/shortcode.php:64
+msgid "Label position"
+msgstr ""
+
+#: integrations/elementor/widgets/shortcode/shortcode.php:78
+#: integrations/elementor/widgets/shortcode/shortcode.php:141
+msgid "Label"
+msgstr ""
+
+#: integrations/elementor/widgets/shortcode/shortcode.php:80
+msgid "Label: "
+msgstr ""
+
+#: integrations/elementor/widgets/shortcode/shortcode.php:104
+msgid "Enter supported Shortcode here"
+msgstr ""
+
+#: integrations/elementor/widgets/shortcode/shortcode.php:152
+msgid "Spacing"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:27
+#: integrations/elementor/widgets/social/social.php:57
+msgid "Social"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:66
+msgid "Select social media"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:70
+#: integrations/elementor/widgets/social/social.php:133
+msgid "Facebook"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:71
+#: integrations/elementor/widgets/social/social.php:140
+msgid "Twitter"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:72
+#: integrations/elementor/widgets/social/social.php:147
+msgid "LinkedIn"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:73
+#: integrations/elementor/widgets/video/video.php:70
+msgid "Vimeo"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:74
+msgid "Youtube"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:75
+msgid "Dribbble"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:76
+msgid "Flicker"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:77
+msgid "Forward To Friend"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:78
+msgid "Github"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:79
+msgid "Houzz"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:80
+msgid "Instagram"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:81
+msgid "Website"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:82
+msgid "Medium"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:83
+msgid "Pinterest"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:84
+msgid "Reddit"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:85
+msgid "RSS"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:86
+msgid "SnapChat"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:87
+msgid "Soundcloud"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:88
+msgid "Spotify"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:89
+msgid "Tumblr"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:90
+msgid "Vine"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:91
+msgid "VK"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:114
+msgid "Social name"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:117
+msgid "Type your social media name here"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:124
+msgid "Socials List"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:129
+msgid "facebook"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:131
+msgid "https://facebook.com"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:136
+msgid "twitter"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:138
+msgid "https://twitter.com"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:143
+msgid "linkedin"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:145
+msgid "https://linkedin.com"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:157
+msgid "Icon style"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:161
+msgid "Solid Color"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:162
+msgid "Solid Dark"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:163
+msgid "Solid Light"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:164
+msgid "OutLine Color"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:165
+msgid "OutLine Dark"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:166
+msgid "OutLine Light"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:168
+msgid "Use background to see better output for \"Solid Light\" and \"OutLine Light\""
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:201
+msgid "Icon"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:209
+msgid "Size (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:228
+msgid "Horizontal Space (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:248
+msgid "Vertical Space (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/spacer/spacer.php:28
+#: integrations/elementor/widgets/spacer/spacer.php:57
+msgid "Spacer"
+msgstr ""
+
+#: integrations/elementor/widgets/spacer/spacer.php:65
+msgid "Height (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/text-editor/text-editor.php:28
+#: integrations/elementor/widgets/text-editor/text-editor.php:66
+msgid "Text Editor"
+msgstr ""
+
+#: integrations/elementor/widgets/text-editor/text-editor.php:68
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: integrations/elementor/widgets/text-editor/text-editor.php:78
+msgid "Style"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:28
+msgid "Video"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:58
+msgid "Video Thumbnail"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:65
+msgid "Source"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:69
+msgid "YouTube"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:71
+msgid "Dailymotion"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:72
+msgid "Self Hosted"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:106
+#: integrations/elementor/widgets/video/video.php:121
+#: integrations/elementor/widgets/video/video.php:136
+#: integrations/elementor/widgets/video/video.php:151
+msgid "Video Url"
+msgstr ""
+
+#: plugin.php:350
+#: plugin.php:351
+msgid "Elemailer"
+msgstr ""
+
+#: plugin.php:361
+#: public/views/em-form-template-settings.php:2
+msgid "Elemailer Settings"
+msgstr ""
+
+#: plugin.php:418
+msgid "You are able to create only 3 templates with elemailer lite"
+msgstr ""
+
+#: public/views/em-form-template-settings.php:9
+msgid "We would appreciate it if you keep the footer branding for spreading the news about our amazing <b>Elemailer Lite</b> plugin."
+msgstr ""
+
+#: public/views/em-form-template-settings.php:15
+msgid "In case you sill would like to remove the footer branding, it would be highly appreciated if you get one of our <a href=\"https://elemailer.com/pricing/\" target=\"_blank\"><strong>PRO plans</strong></a> or tell your friends about us or even leave us a great <a href=\"https://wordpress.org/support/plugin/elemailer-lite/reviews/#new-post\" target=\"_blank\"><strong>REVIEW</strong></a> as this will boost our enthusiasm to work more on this amazing plugin."
+msgstr ""
+
+#: public/views/em-form-template-settings.php:20
+msgid "Remove footer Branding"
+msgstr ""
+
+#: public/views/em-form-template-settings.php:25
+msgid "Get us some coffee?"
+msgstr ""
+
+#: public/views/em-form-template-settings.php:33
+msgid "Get Elemailer"
+msgstr ""
+
+#: public/views/em-form-template-settings.php:34
+msgid "Go Pro"
+msgstr ""
+
+#: public/views/template-create-modal.php:7
+msgid "Elemailer Form Template Settings"
+msgstr ""
+
+#: public/views/template-create-modal.php:17
+msgid "Template Name"
+msgstr ""
+
+#: public/views/template-create-modal.php:19
+msgid "This is your template name or title"
+msgstr ""
+
+#: public/views/template-create-modal.php:22
+msgid "This template will be used only for elementor pro's form action's email and email2."
+msgstr ""
+
+#: public/views/template-create-modal.php:23
+msgid "You can use our template on elementor form submission."
+msgstr ""
+
+#: public/views/template-create-modal.php:29
+msgid "Edit with elementor"
+msgstr ""
+
+#: public/views/template-create-modal.php:33
+msgid "Save changes"
+msgstr ""
+
+#: public/views/templates.php:15
+msgid "All"
+msgstr ""
+
+#: public/views/templates.php:16
+msgid "Free"
+msgstr ""
+
+#. translators: %s are white label strings.
+#: public/views/templates.php:17
+#: public/views/templates.php:112
+#: public/views/templates.php:147
+msgid "Premium"
+msgstr ""
+
+#: public/views/templates.php:23
+msgid "Search..."
+msgstr ""
+
+#: public/views/templates.php:24
+msgid "SEARCH"
+msgstr ""
+
+#: public/views/templates.php:52
+msgid "Back to Layout"
+msgstr ""
+
+#: public/views/templates.php:61
+#: public/views/templates.php:62
+msgid "Close"
+msgstr ""
+
+#: public/views/templates.php:66
+msgid "Sync Library"
+msgstr ""
+
+#. translators: %s are white label strings.
+#: public/views/templates.php:112
+#: public/views/templates.php:147
+msgid "This premium template is accessible with %1$s \"Premium\" Package."
+msgstr ""
+
+#. translators: %s are white label strings.
+#: public/views/templates.php:112
+#: public/views/templates.php:147
+msgid "Elemailer Pro"
+msgstr ""
+
+#: public/views/templates.php:159
+#: public/views/templates.php:238
+#: public/views/templates.php:271
+msgid "Sorry No Results Found."
+msgstr ""
+
+#. translators: %1$s External Link
+#: public/views/templates.php:165
+#: public/views/templates.php:244
+#: public/views/templates.php:277
+msgid "Don't see a template you would like to import?<br><a target=\"_blank\" href=\"%1$s\">Make a Template Suggestion!</a>"
+msgstr ""
+
+#: public/views/templates.php:168
+#: public/views/templates.php:247
+#: public/views/templates.php:280
+msgid "Back to Templates"
+msgstr ""
+
+#: public/views/templates.php:261
+msgid "Insert"
+msgstr ""
+
+#: public/views/templates.php:326
+msgid "Import Template"
+msgstr ""

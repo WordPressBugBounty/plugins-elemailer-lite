@@ -1,0 +1,122 @@
+/* show only void email template widgets category */
+#elementor-panel-categories .elementor-panel-category:not(#elementor-panel-category-elemailer-template-builder-fields) {
+    display: none;
+}
+
+/* hide advanced tab from elementor editor panel updated @2.6*/
+#elementor-panel-content-wrapper #elementor-panel-page-editor .elementor-panel-navigation .elementor-component-tab.elementor-panel-navigation-tab:not(.elementor-tab-control-content,.elementor-tab-control-style){
+    display: none;
+}
+
+/* hide editor panel settings except for needed ones updated @2.6*/
+#elementor-panel-content-wrapper #elementor-panel-page-menu-content .elementor-panel-menu-item:not(.elementor-panel-menu-item-editor-preferences,.elementor-panel-menu-item-view-page,.elementor-panel-menu-item-exit-to-dashboard,.elementor-panel-menu-item-elemailer-body-settings, .elementor-panel-menu-item-exit){
+    display: none;
+}
+
+/* hide global settings from elementor editor panel */
+#elementor-panel-content-wrapper #elementor-panel-page-menu-content .elementor-panel-menu-items .elementor-panel-menu-item-global-settings {
+    display: none;
+}
+
+/* hide global widget switching tab for avoiding show others global widgets */
+#elementor-panel-inner #elementor-panel-content-wrapper #elementor-panel-elements-navigation div[data-tab="global"] {
+    display: none;
+}
+/* hide left editor panel global widget selection system as the above don't work with update */
+#elementor-panel-elements-navigation{
+    display: none;
+}
+/* hide search button for avoiding show others widgets during search + hide panel notice*/
+/*#elementor-panel-inner #elementor-panel-content-wrapper #elementor-panel-page-elements #elementor-panel-elements-search-area, #elementor-panel-content-wrapper #elementor-panel-elements-notice-area {
+    display: none;
+}*/
+
+/* disable responsive control icons. Enable in future. since @2.6 */
+[class*="elemailer"].elementor-group-control-background .elementor-control-responsive-switchers {
+    display: none;
+}
+.elementor-control-type-font .elementor-control-field-description{
+    border-color: var(--e-a-color-warning);
+    background: var(--e-a-bg-warning);
+    padding: 5px;
+    border-left: 3px solid var(--e-a-color-warning);
+    position: relative;
+    font-size: 11px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: left;
+    border-radius: 0 3px 3px 0;
+}
+
+/* remove all responsive control buttons */
+.elementor-responsive-switcher{
+    display: none;
+}
+
+#elementor-panel-content-wrapper #elementor-panel-elements-notice-area {
+    display: none;
+}
+/* hide settings for avoiding unwanted controls and styles */
+#elementor-panel-inner #elementor-panel-footer #elementor-panel-footer-settings{
+    display: none;
+}
+/* elementor width issue solve specially in iframe */
+.elementor-device-desktop #elementor-preview-responsive-wrapper {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+}
+
+/* global color selection remove from color control */
+#elementor-panel-content-wrapper #elementor-panel-page-editor #elementor-controls .e-global__popover-toggle.elementor-control-unit-1 {
+    display: none;
+}
+/* global color add button remove from color control */
+.pcr-app.visible .e-color-picker__tools button.e-control-tool{
+    display: none;
+}
+
+input:disabled{
+    cursor: not-allowed;
+}
+select:disabled,.select2-container--disabled * span{
+    cursor: not-allowed!important;
+}
+.select2-container--disabled ul li{
+    color: transparent!important;
+}
+
+/* CSS for dark mode */
+
+.select2-selection ul:not(.select2-selection__rendered){
+    background: red;
+}
+
+#elementor-panel-get-pro-elements{
+background: #93003c;
+margin-top: 20px;
+color:#fff;
+}
+
+#elementor-panel-get-pro-elements img, #elementor-panel-get-pro-elements a{
+display: none;
+}
+#elementor-panel-get-pro-elements .elementor-nerd-box-message{
+visibility: hidden;
+font-size: 0px;
+}
+#elementor-panel-get-pro-elements .elementor-nerd-box-message::before{
+content: 'Get More with Elemailer Pro \A';
+visibility: visible;
+font-size: 15px;
+  white-space: pre-wrap;
+}
+#elementor-panel-get-pro-elements{
+    display: block!important;
+}
+#elementor-panel-get-pro-elements .elementor-nerd-box-message::after{
+content: 'Custom CSS, Custom HTML, Email tests, Body background controls, WooCommerce Emails, Newsletter, Subscriber, Lists, tracking and more!';
+visibility: visible;
+font-size: 10px;
+}

@@ -1,0 +1,173 @@
+/* Loaded for the editor / front end only not sent in email...
+Default elementor CSS for layout and basic structures START */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a,
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+h1 {
+    font-size: 36px;
+    line-height: 70px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+h3 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+h4 {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+}
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+h6 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+p {
+    font-size: 14px;
+    line-height: 24px;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: unset;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: initial;
+    box-shadow: none;
+    cursor: pointer;
+}
+.void-section-text p,
+.void-section-text h1,
+.void-section-text h2,
+.void-section-text h3,
+.void-section-text h4,
+.void-section-text h5,
+.void-section-text h6 {
+    margin: 0px auto;
+    display: block; 
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+h1:before,
+h2:before {
+    display: none !important;
+}
+ul li,ol li,ul,ol{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: visible;
+}
+.elementor .elementor-inner,
+.elementor .elementor-section-wrap,
+.elementor-section{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.elementor-widget:not(:last-child) {
+    margin: 0px;
+}
+.elementor-section .elementor-container {
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+
+.elementor-column-wrap {
+    width: 100%;
+}
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 0px !important;
+}
+/* Text Editor Widget CSS invalid as these were not loaded in the elemailer-mail.css so commnted out to avoid confusion
+.void-section-text p,
+.void-section-text h1,
+.void-section-text h2,
+.void-section-text h3,
+.void-section-text h4,
+.void-section-text h5,
+.void-section-text h6 {
+    margin: 0px auto;
+    display: block; 
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+
+.void-section-text h1 {
+    font-size: 36px;
+    line-height: 44px;
+}
+.void-section-text h2 {
+    font-size: 30px;
+    line-height: 36px;
+}
+.void-section-text h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.void-section-text h4 {
+    font-size: 20px;
+    line-height: 26px;
+}
+.void-section-text h5 {
+    font-size: 16px;
+    line-height: 24px;
+}
+.void-section-text h6 {
+    font-size: 14px;
+    line-height: 22px;
+}
+.void-section-text p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+Text Editor Widget CSS END */
+
+/* image box css needed due to backward compatibility */
+.void-email-image-box h3,.void-email-image-box p, .ele-footer-text p, .ele-unsubscribe a{
+    line-height: initial;
+}
+/* footer css needed due to backward compatibility */
+.ele-unsubscribe a{
+    text-decoration: underline;
+}
+
+/* hide admin bar elementor editor start so*/
+.em-emails-template-template li#wp-admin-bar-elementor_edit_page,.em-form-template-template li#wp-admin-bar-elementor_edit_page,.em-emails-template-template #wp-admin-bar-edit{
+    display: none;
+}
+.em-emails-template-template li#wp-admin-bar-elementor_inspector,.em-form-template-template li#wp-admin-bar-elementor_inspector {
+    display: none;
+}
+/* hide admin bar elementor editor end */
+.elementor-row {
+    overflow: auto;
+}
+body,.elemailer-send-template{
+    overflow: auto;
+}

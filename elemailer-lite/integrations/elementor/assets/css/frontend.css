@@ -1,0 +1,12 @@
+/* elementor bottom templete library hide */
+.elementor-add-section-inner .elementor-add-new-section .elementor-add-section-area-button:not(.elementor-add-section-button,.elementor-add-elemailer-site-button){
+display: none;
+}
+
+.elementor-add-section-inner .elementor-add-new-section *:not(.elementor-add-elemailer-site-button,.elementor-add-section-button,.elementor-add-section-button i,.elementor-add-section-drag-title){
+    display: none;
+}
+/* limit the width of the panel add new section */
+#elementor-add-new-section{
+    max-width: 600px;
+}

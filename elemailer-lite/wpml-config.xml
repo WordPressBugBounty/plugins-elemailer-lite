@@ -1,0 +1,145 @@
+<wpml-config>
+  <elementor-widgets>
+    <widget name="elemailer-heading">
+      <conditions>
+        <condition key="widgetType">elemailer-heading</condition>
+      </conditions>
+      <fields>
+        <field type="Heading Title" editor_type="LINE">title</field>
+        <field type="Heading Link" editor_type="LINK">link>url</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-button">
+      <conditions>
+        <condition key="widgetType">elemailer-button</condition>
+      </conditions>
+      <fields>
+        <field type="Button Text" editor_type="LINE">text</field>
+        <field type="Button URL" editor_type="LINK" key_of="link">url</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-footer">
+      <conditions>
+        <condition key="widgetType">elemailer-footer</condition>
+      </conditions>
+      <fields>
+        <field type="Footer Address" editor_type="LINE">footer_address</field>
+        <field type="Unsbscribe Text" editor_type="LINE">unsbscribe_text</field>
+        <field type="Manage Sbscription Text" editor_type="LINE">manage_sbscription_text</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-image">
+      <conditions>
+        <condition key="widgetType">elemailer-image</condition>
+      </conditions>
+      <fields>
+        <field type="Image Source URL" editor_type="LINK" key_of="void_email_image">url</field>
+        <field type="Image Link" editor_type="LINK">image_link>url</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-image-box">
+      <conditions>
+        <condition key="widgetType">elemailer-image-box</condition>
+      </conditions>
+      <fields>
+        <field type="Image Box Image URL" editor_type="LINK" key_of="void_email_image">url</field>
+        <field type="Image Box Title" editor_type="LINE">void_email_title</field>
+        <field type="Image Box Description" editor_type="AREA">void_email_description</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-latest-posts">
+      <conditions>
+        <condition key="widgetType">elemailer-latest-posts</condition>
+      </conditions>
+      <fields>
+        <field type="post_type" editor_type="LINE">post_type</field>
+        <field type="taxonomy_type" editor_type="LINE">taxonomy_type</field>
+        <field type="terms" editor_type="LINE">terms</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-shortcode">
+      <conditions>
+        <condition key="widgetType">elemailer-shortcode</condition>
+      </conditions>
+      <fields>
+        <field type="Shortcode" editor_type="AREA">shortcode</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-text-editor">
+      <conditions>
+        <condition key="widgetType">elemailer-text-editor</condition>
+      </conditions>
+      <fields>
+        <field type="Text Editor" editor_type="VISUAL">text_editor</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-video">
+      <conditions>
+        <condition key="widgetType">elemailer-video</condition>
+      </conditions>
+      <fields>
+        <field type="Self Hosted Thumbnail Source" editor_type="LINK">void_video_thumbnail>url</field>
+        <field type="Youtube Viode URL" editor_type="LINK">youtube_video_link>url</field>
+        <field type="Dailymotion video URL" editor_type="LINK">dailymotion_video_link>url</field>
+        <field type="Vimeo video URL" editor_type="LINK">vimeo_video_link>url</field>
+        <field type="Self Hosted video URL" editor_type="LINK">hosted_video_link>url</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-wc-billing-address">
+      <conditions>
+        <condition key="widgetType">elemailer-wc-billing-address</condition>
+      </conditions>
+      <fields>
+        <field type="Billing Title" editor_type="LINE">email_billing_title_text</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-wc-description">
+      <conditions>
+        <condition key="widgetType">elemailer-wc-description</condition>
+      </conditions>
+      <fields>
+        <field type="WC Description Text" editor_type="AREA">email_description</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-wc-footer">
+      <conditions>
+        <condition key="widgetType">elemailer-wc-footer</condition>
+      </conditions>
+      <fields>
+        <field type="WC Footer Text" editor_type="AREA">email_footer_text</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-wc-header">
+      <conditions>
+        <condition key="widgetType">elemailer-wc-header</condition>
+      </conditions>
+      <fields>
+        <field type="WC Header Text" editor_type="AREA">email_header_text</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-wc-new-accouont">
+      <conditions>
+        <condition key="widgetType">elemailer-wc-new-accouont</condition>
+      </conditions>
+      <fields>
+        <field type="WC New Account Description" editor_type="AREA">email_description</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-wc-order-notes">
+      <conditions>
+        <condition key="widgetType">elemailer-wc-order-notes</condition>
+      </conditions>
+      <fields>
+        <field type="WC Order Note Intro" editor_type="AREA">intro_message</field>
+      </fields>
+    </widget>
+    <widget name="elemailer-wc-shipping-address">
+      <conditions>
+        <condition key="widgetType">elemailer-wc-shipping-address</condition>
+      </conditions>
+      <fields>
+        <field type="WC Shipping title" editor_type="AREA">email_shipping_title_text</field>
+      </fields>
+    </widget>
+  </elementor-widgets>
+</wpml-config>
