@@ -177,12 +177,10 @@ class Hooks
      * Remove the container experiement. TO DO: in future further modification will be needed for sure.
      * @since 1.2
      */
-    public function remove_container_experiment( $document ) {
+    public function remove_container_experiment( $manager ) {
         if(isset( $_GET['post']) && in_array( get_post_type($_GET['post']), ['em-form-template', 'em-emails-template'] ) ){
           
-        $document->remove_feature( 'container'); 
-
-         // @since 1.8 we no longer need it because of remove_all_experiement_requirement system. we will remove it later
+        // @since 1.8 we no longer need it because of remove_all_experiement_requirement system. we will remove it later
          // patch for fixing fatal error on elementor loop builder as it reqires container. So we are initializing fake loop
          // require_once('container.php');
 
@@ -190,6 +188,29 @@ class Hooks
             return 'inactive';
              } );
 
+  
+         // $manager returns an object 
+        if ($manager instanceof \Elementor\Core\Experiments\Manager) {
+
+            // The experiment values are private, so using Reflection allow us to take 'features' private properties
+            $reflection = new \ReflectionClass($manager);
+            $property = $reflection->getProperty('features');
+            $property->setAccessible(true);
+            $features = $property->getValue($manager);
+
+            // Print the experiment names in case you need to check the name of the experiment you want to disable
+            //error_log( print_r($features, true) );
+
+            // Check for an experiment and disable it (this example disables optimized control loading)
+            if (isset($features['container'])) {
+                $features['container']['state'] = 'inactive';
+                $property->setValue($manager, $features);
+            }
+        }
+
+        return $manager;
+
+   
          
           }
     }

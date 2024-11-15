@@ -5,12 +5,12 @@ defined('ABSPATH') || exit;
  * Plugin Name: Elemailer Lite
  * Plugin URI:  https://elemailer.com/
  * Description: Elementor Email template & campaign builder for WordPress
- * Version: 2.3
+ * Version: 2.4
  * Author: elemailer
  * Author URI:  https://elemailer.com/
  * Text Domain: elemailer-lite
- * Elementor tested up to: 3.24
- * Elementor Pro tested up to: 3.24
+ * Elementor tested up to: 3.3
+ * Elementor Pro tested up to: 3.3
  * License:  GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */

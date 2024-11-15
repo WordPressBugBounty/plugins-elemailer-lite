@@ -42,7 +42,7 @@ final class Plugin
      */
     public function define_constant()
     {
-        define( 'ELE_MAILER_LITE_VERSION', '2.3' );
+        define( 'ELE_MAILER_LITE_VERSION', '2.4' );
         define( 'ELE_MAILER_LITE_PACKAGE', 'free' );
         define( 'ELE_MAILER_LITE_PLUGIN_URL', trailingslashit(plugin_dir_url(__FILE__ ) ) );
         define( 'ELE_MAILER_LITE_PLUGIN_DIR', trailingslashit(plugin_dir_path(__FILE__ ) ) );
