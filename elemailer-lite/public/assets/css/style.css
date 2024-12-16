@@ -171,3 +171,6 @@ Text Editor Widget CSS END */
 body,.elemailer-send-template{
     overflow: auto;
 }
+.elementor-location-floating_buttons{
+    display: none;
+}
