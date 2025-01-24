@@ -217,13 +217,18 @@ class Action
             'post_status' => 'publish',
             'numberposts' => -1,
             'order'    => 'DESC',
+            'no_found_rows'          => true,
+            'update_post_term_cache' => false,
+            'update_post_meta_cache' => false,
+            'cache_results'          => false
+
         ]);
 
         foreach ($posts as $post) {
             $form_templates[$post->ID] = $post->post_title;
         }
 
-        wp_reset_postdata();
+      //no need to reset query with get posts. 
 
         return $form_templates;
     }
