@@ -2,16 +2,16 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Elemailer Lite 2.7\n"
+"Project-Id-Version: Elemailer Lite 2.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/elemailer-lite\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-01-24T17:26:02+00:00\n"
+"POT-Creation-Date: 2025-08-05T20:05:26+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: elemailer-lite\n"
 
 #. Plugin Name of the plugin
@@ -288,6 +288,7 @@ msgstr ""
 
 #. translators: %s: Site title.
 #: integrations/elementor/actions/void-email.php:60
+#, php-format
 msgid "New message from \"%s\""
 msgstr ""
 
@@ -320,6 +321,7 @@ msgid "Install Elementor"
 msgstr ""
 
 #: integrations/elementor/base.php:203
+#, php-format
 msgid "Elemailer Lite needs Elementor version %1$s+ , which is not activated."
 msgstr ""
 
@@ -328,6 +330,7 @@ msgid "Update Elementor"
 msgstr ""
 
 #: integrations/elementor/base.php:226
+#, php-format
 msgid "Elemailer Lite needs Elementor version %1$s+ for working it, lower version is running. Please update."
 msgstr ""
 
@@ -340,16 +343,19 @@ msgid "Install Elementor pro"
 msgstr ""
 
 #: integrations/elementor/base.php:261
+#, php-format
 msgid "To use Elemailer Lite with Elementor pro Forms to send email elementor pro %1$s+ should be installed & activated. Ignore if you plan to use Elemailer with other Form plugin(s)."
 msgstr ""
 
 #. translators: %s are link.
 #: integrations/elementor/library.php:98
+#, php-format
 msgid "This is a premium template. you can purchase it from <a href=\"%s\" target=\"_blank\">here</a>."
 msgstr ""
 
 #. translators: %s are link.
 #: integrations/elementor/library.php:100
+#, php-format
 msgid "Save Email template feature is available only in <a href=\"%s\" target=\"_blank\">Elemailer</a> paid version."
 msgstr ""
 
@@ -646,6 +652,7 @@ msgid "Subscription"
 msgstr ""
 
 #: integrations/elementor/widgets/footer/footer.php:143
+#, php-format
 msgid "<div style=\"font-size: 16px;line-height: 20px;\">Unsubscribe and Manage Subscription feature available only in <a href=\"%s\" target=\"_blank\">Elemailer</a> paid version.</div>"
 msgstr ""
 
@@ -778,7 +785,7 @@ msgstr ""
 
 #: integrations/elementor/widgets/latest-posts/latest-posts.php:103
 #: integrations/elementor/widgets/selected-posts/selected-posts.php:106
-#: plugin.php:362
+#: plugin.php:380
 msgid "Settings"
 msgstr ""
 
@@ -1149,17 +1156,17 @@ msgstr ""
 msgid "Video Url"
 msgstr ""
 
-#: plugin.php:350
-#: plugin.php:351
+#: plugin.php:368
+#: plugin.php:369
 msgid "Elemailer"
 msgstr ""
 
-#: plugin.php:361
+#: plugin.php:379
 #: public/views/em-form-template-settings.php:2
 msgid "Elemailer Settings"
 msgstr ""
 
-#: plugin.php:418
+#: plugin.php:436
 msgid "You are able to create only 3 templates with elemailer lite"
 msgstr ""
 
@@ -1254,6 +1261,7 @@ msgstr ""
 #. translators: %s are white label strings.
 #: public/views/templates.php:112
 #: public/views/templates.php:147
+#, php-format
 msgid "This premium template is accessible with %1$s \"Premium\" Package."
 msgstr ""
 
@@ -1273,6 +1281,7 @@ msgstr ""
 #: public/views/templates.php:165
 #: public/views/templates.php:244
 #: public/views/templates.php:277
+#, php-format
 msgid "Don't see a template you would like to import?<br><a target=\"_blank\" href=\"%1$s\">Make a Template Suggestion!</a>"
 msgstr ""
 

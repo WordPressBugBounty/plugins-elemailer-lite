@@ -166,6 +166,13 @@ body,.elemailer-send-template{
 .ele-unsubscribe a{
     text-decoration: underline;
 }
+img.wp-smiley, img.emoji{
+    display: inline;
+    height: 1em;
+    width: 1em;
+    margin: 0 0.07em;
+    vertical-align: -0.1em;
+}
 
 @media screen and (max-width:600px) {
     .elementor-column { 

@@ -42,7 +42,7 @@ final class Plugin
      */
     public function define_constant()
     {
-        define( 'ELE_MAILER_LITE_VERSION', '2.7' );
+        define( 'ELE_MAILER_LITE_VERSION', '2.8' );
         define( 'ELE_MAILER_LITE_PACKAGE', 'free' );
         define( 'ELE_MAILER_LITE_PLUGIN_URL', trailingslashit(plugin_dir_url(__FILE__ ) ) );
         define( 'ELE_MAILER_LITE_PLUGIN_DIR', trailingslashit(plugin_dir_path(__FILE__ ) ) );
@@ -115,10 +115,10 @@ final class Plugin
         // limitation notice
         add_action( 'admin_notices', [ $this, 'show_free_version_limitation' ] );
 
-        // call everything for email template. this init will register cpt and everything related on template
-        App\Form_Template\Base::instance()->init();
+        //call the after theme setup function to trigger anything after the theme set up hook of wp. We use this to register CPT of elemailer
+        $this->after_theme_setup();
 
-        // integrate differnet plugin before email sending shortcode supports in mail body @since 1.0.3
+          // integrate differnet plugin before email sending shortcode supports in mail body @since 1.0.3
         Integrations\Shortcode\Base::instance()->init();
         
         // integrate elementor with this plugin
@@ -131,6 +131,24 @@ final class Plugin
         Helpers\Util::minify_css(ELE_MAILER_LITE_PLUGIN_DIR . 'public/assets/css/elemailer-mail.css', ELE_MAILER_LITE_PLUGIN_DIR . 'app/form-template/view/default-elementor-style.php');
     }
 
+    /**
+    *Anything that we want to trigger after the theme setup is done goes here. For example: registration of CPT to avoid text
+    *domain loading error Function _load_textdomain_just_in_time was called incorrectly. 
+    * @return void
+    * @since 2.8
+    **/
+
+    public function after_theme_setup()
+    {
+
+        add_action( 'after_setup_theme', function() {
+
+           //register CPT call 
+           App\Form_Template\Base::instance()->init();
+
+        });
+
+    }
     public function after_wp_loaded_hooks()
     {
         // remove wp classic editor styles from themes

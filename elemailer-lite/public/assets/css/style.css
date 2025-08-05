@@ -156,6 +156,13 @@ Text Editor Widget CSS END */
 .ele-unsubscribe a{
     text-decoration: underline;
 }
+img.wp-smiley, img.emoji{
+    display: inline;
+    height: 1em;
+    width: 1em;
+    margin: 0 0.07em;
+    vertical-align: -0.1em;
+}
 
 /* hide admin bar elementor editor start so*/
 .em-emails-template-template li#wp-admin-bar-elementor_edit_page,.em-form-template-template li#wp-admin-bar-elementor_edit_page,.em-emails-template-template #wp-admin-bar-edit{
@@ -173,4 +180,8 @@ body,.elemailer-send-template{
 }
 .elementor-location-floating_buttons{
     display: none;
+}
+
+#elementor-panel-get-pro-elements-sticky,[aria-label="Site Settings"],[aria-label="Notes"],.eui-95rbei-MuiStack-root,.eui-jcxoq4-MuiButton-endIcon {
+    display: none!important; 
 }

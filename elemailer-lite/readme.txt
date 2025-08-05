@@ -1,10 +1,10 @@
 === Elemailer Lite - Elementor email template & campaign builder ===
 Contributors: elemailer,soyket,tanvir2024
 Tags: email, cf7, email template, elementor addons, email marketing, email template builder, elementor, contact form 7, email design, woocommerce email customizer, free email builder, ai
-Requires at least: 4.5
-Tested up to: 6.7.1
+Requires at least: 5.8
+Tested up to: 6.8.2
 Requires PHP: 7.2
-Stable tag: 2.7
+Stable tag: 2.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -146,6 +146,13 @@ You may go to wp-admin > Elemailer > Setting > Select Remove footer branding > H
 Before Update take a full backup of your site just incase. Update the plugin either via wp dashboard or via FTP(old-day method). After the update, makes sure you clear your browser cache & and regenerate the CSS of Elementor by going to wp-admin > Elementor > Tools > Press Regenerate CSS button > Hit Save. 
 
 == Changelog ==
+= 2.8 =
+* Fix: Function _load_textdomain_just_in_time was called incorrectly
+* Fix: emoji showing distorted in emails
+* Tweak: Compatiblity with latest wp version
+* Tweak: Comaptiblity with latest Elementor & Elementor Pro
+= 2.7 =
+* Fix: Version number
 = 2.6 =
 * Fix: Elementor loop query is broken
 = 2.5 =
